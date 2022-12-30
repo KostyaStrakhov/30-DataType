@@ -16,3 +16,13 @@ let qty = Math.floor(money/price);
 
 alert(`Ви зможете купити ${qty} шоколадки і у вас залишиться ${money - (price*qty)} грн.`);
 
+
+let num = prompt('Введіть тризначне число');
+
+let num3 = num % 10;
+
+let num2 = (Math.floor(num/10)) % 10
+
+let num1 = (Math.floor(num/100))
+
+alert(`Результат = ${num3}${num2}${num1}`)
